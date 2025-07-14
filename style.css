@@ -1,0 +1,203 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.header{
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  color: white;
+  height: 50px;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  
+}
+a{
+    color: white;
+    text-decoration: none;
+    width: 25%;
+    font-family: "Source Code Pro", monospace; 
+  
+ 
+}
+a:hover{
+    background-color: white;
+    color: black;
+    width: 400px;
+    padding: 10px;
+    text-align: center;
+}
+
+.heading1{
+    
+   color: white;
+   position: absolute;
+   top: 40%;
+   bottom:40%;
+   right: 40%;
+   left: 40%;
+   font-size: 40px;
+  font-family: "Source Code Pro", monospace;
+}
+.para1{
+    border: 0px solid transparent;
+    background-color: black;
+    color: white;
+    width: 220px;
+    text-align: center;
+    font-family: "Source Code Pro", monospace;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+.section1{
+    background-image: url("https://www.w3schools.com/w3images/coffeehouse.jpg");
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+.para2{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    color: white;
+}
+
+.heading2{
+    background-color: black;
+    color: white;
+    width: 200px;
+    font-family: "Source Code Pro", monospace;
+    font-size:20px;
+    
+}
+p{
+ font-family: "Source Code Pro", monospace;   
+}
+.para3{
+    
+   border: 1px solid transparent;
+   width: fit-content;
+   background-color: rgb(243, 239, 239);
+   padding: 15px;
+   border-left:7px solid rgba(177, 168, 168, 0.775);
+
+}
+.img1{
+    width: 730px;
+    height: 400px;
+}
+.img2{
+    width: 750px;
+    height: 400px;
+    
+
+}
+.para4{
+   text-align: center;
+   margin-right: 350px;
+}
+.footer{
+    text-align: center;
+   margin-right: 80px;
+}
+.para5{
+     text-align: center;
+   margin-right: 430px;
+
+}
+.menu-heading{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    width: fit-content;
+    font-size: medium;
+    font-family: "Source Code Pro", monospace;  
+}
+.a-class{
+   
+    background-color: aliceblue;
+    margin: 0px 380px 0px 380px;
+    padding: 15px;
+    display: flex;
+    
+    justify-content: space-between;
+    
+    
+}
+.a1-class{
+    color: black;
+    background-color: aliceblue;
+    border: 5px solid aliceblue;
+    width: 350px;
+    padding: 5px;
+    text-align: center;
+    border-bottom: lightgrey;
+}
+.a2-class{
+    color: black;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 5px;
+    border: 5px solid aliceblue;
+    width: 350px;
+
+}
+.a1-class:hover{
+    background-color: grey;
+    color: white;
+    width: 350px;
+    text-align: center;
+    padding: 10px;
+}
+.a2-class:hover{
+    background-color: grey;
+    color: white;
+    width: 350px;
+    text-align: center;
+    padding: 10px;
+}
+.eat-container{
+    background-color: aliceblue;
+    font-family: "Source Code Pro", monospace;  
+    padding-left: 50px;
+}
+span{
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 2px;
+    text-decoration: underline;
+}
+input{
+    height: 60px;
+    width: 750px;
+    padding: 2px;
+     font-family: "Source Code Pro", monospace; 
+}
+.btn-class{
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 10px;
+    font-family: "Source Code Pro", monospace; 
+    margin-right: 630px;
+}
+.last{
+    font-family: "Source Code Pro", monospace; 
+    height: 150px;
+    text-align: center;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
